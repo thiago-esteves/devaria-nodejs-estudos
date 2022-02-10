@@ -12,8 +12,8 @@ console.log("alem da suas verificaçoes , precisamos se vc esta na lista de pres
         console.log('vc nao tem 18 anos');
 
      }else{
-         readline.question('vc tem habilitacao (Sim/Nao)', temHabilitacao =>{
-           if (!(temHabilitacao.toLocaleUpperCase()==='Sim')){
+         readline.question('vc tem habilitacao ("Sim/Nao")', temHabilitacao =>{
+           if (!(temHabilitacao.toLocaleUpperCase()==="Sim")){
                console.log(" vc nao tem habilitacao para entrar no kart");
            }else{
                readline.question('qual seu nome?', nome =>{
